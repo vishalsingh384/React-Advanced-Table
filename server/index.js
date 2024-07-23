@@ -7,7 +7,6 @@ app.use(cors());
 
 app.get("/users",(req,res)=>{
     const {q}=req.query;
-    console.log(q);
 
     const keys=["first_name", "last_name", "email"];
 
